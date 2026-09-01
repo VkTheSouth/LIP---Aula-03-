@@ -8,27 +8,31 @@ package receba.project;
  *
  * @author 53795760879
  */
+
+
+/**
+ *
+ * @author 53795760879
+ */
 import java.util.Scanner;
 public class Project {
 
     public static void main(String[] args) {
-        Scanner ds = new Scanner(System.in);
-        int idade = 10;
-        System.out.println(idade > 10);
+        Scanner sc = new Scanner(System.in);
         
-        String senha = "Minhasenha";
-        System.out.println("Amor" != senha);
+        System.out.println("Digite 1 numero: ");
+        int numero1 = sc.nextInt();
+        sc.nextLine();
+        System.out.println("Digite 2 numero: ");
+        int numero2 = sc.nextInt();
         
-        System.out.println("Digite a senha: ");
-        String palavra = ds.nextLine();
-       
-        if (!palavra.equals(senha)){
-        System.out.println("Usuario ou senha incorreto!!!");
+        if (numero1 >= numero2){
+            System.out.println("Forte");
         }else{
-            System.out.println("Senha correta");
+            System.out.println("Fraco");
         }
         
-        
+ 
         
     }
     
@@ -36,5 +40,7 @@ public class Project {
        BLOCO DE COMANDOS
        if (variavel !=, ==, >, <, etc variavel)
        BLOCO DE COMANDOS */
+
+
 
 }
